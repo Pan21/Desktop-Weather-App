@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    height: 100%;
+    max-width: 1920px;
+    z-index: -10;
+    background-color: darkslategrey;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 16px;
+  }
+  input{
+      width: 150px;
+      padding: 5px;
+      margin-bottom: 5px;
+      
+  }
+
+  .navHolder{
+      height: 70px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px;
+      background-color: rgba(61, 61, 216, .1);
+  }
+
+  #cityZipInput{
+    background-color: rgba(61, 61, 216, .2);
+  }
+
+  nav{
+      justify-content: space-between;
+      width: 40%;
+      display: flex;
+  }
+
+  nav a {
+      color: black;
+      font-size: xx-large;
+      text-decoration: none;
+  }
+
+  .loginHolder{
+      height: 80%;
+      width: 130px;
+      background-image: url("/img/login-button-png-7.png");
+      background-position: center;
+      background-size: cover;
+      background-color: Transparent;
+      border: none;
+      display: flex;
+      border-radius: 15%;
+  }
+
+
+
+  .userSearch{
+      width: 200px;
+      margin-top: 5%;
+      margin-left: 20px;
+      padding-bottom: 20px;
+  }
+
+  #weatherTab{
+      border-radius: 5%;
+      margin-top: 5%;
+      margin-left: 30%;
+      height: 800px;
+      width: 500px;
+      background-image: url("../img/1462164.jpg");
+  }
+  
+  .location{
+      font-size: xx-large;
+      padding-top: 25px;
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      height: 100px;
+      border-bottom: 2px solid grey;
+      background-color: rgba(61, 61, 216, .1);
+  }
+
+  .weatherInfo{
+      text-align: center;
+      padding: 15px;
+      justify-content: center;
+
+  }
+
+  .weatherInfo .precip{
+      font-size: larger;
+  }
+
+  .weatherSphereContain{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .weatherSphere{
+      margin-top: 50px;
+    
+      height: 320px;
+      width: 320px;
+      border-radius: 50%;
+      background-image: url("/img/222-2224523_blue-sphere-png-circle.png");
+      background-position: center;
+      
+  }
+
+  .weatherSphere img {
+      margin-top: 35px;
+      margin-bottom: 45px;
+      max-height: 70px;
+      max-width: 70px;
+  }
+  .temp{
+      font-size: 64px;
+      font-weight: bold;
+      margin-bottom: 55px;
+  }
+
+  .miscContainer{
+      height: 150px;
+      width: 100%;
+      border-radius: 25%;
+      background-color: rgba(61, 61, 216, .3);
+      display: flex;
+      justify-content: space-evenly;
+      font-size: xx-large;
+      font-weight: bold;
+
+  }
+  .windContain{
+      width: 150px;
+      height: 90%;
+  }
+
+  .humidContain{
+    width: 150px;
+    height:90%;
+}
+
+
+
+#dropDown{
+    background-color: Transparent;
+    border: none;
+
+}
+
+#dropDown img{
+    height: 50px;
+    width: 50px;
+
+    border-radius: 25%;
+}
+
+#dropMenu{
+    
+    position: absolute;
+    display: none;
+    width: 200px;
+    height: 300px;
+    background-color: rgba(155, 217, 233, 0.767);
+    border-radius: 25px;
+    margin-left: 10px;
+    
+}
+
+.navLinks{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navLinks a{
+    width: 100px;
+    padding-bottom: 30px;
+    font-size: xx-large;
+
+    color: black;
+      font-size: xx-large;
+      text-decoration: none;
+}
